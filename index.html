@@ -1,0 +1,2047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vantacore |The Power Beyond The Apocalypse </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Merriweather', serif;
+      background: #1a1a1a;
+      color: #ddd;
+      line-height: 1.75;
+      font-size: 18px;
+      display: flex;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    
+    /* Sidebar Navigation */
+    nav {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 280px;
+      height: 100vh;
+      background: #111;
+      padding: 2rem 1rem;
+      overflow-y: auto;
+      border-right: 2px solid #333;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.7);
+    }
+    
+    nav h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #ff6347;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.5rem;
+    }
+    
+    nav ul {
+      list-style: none;
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+      padding-right: 5px;
+    }
+    
+    nav li {
+      margin-bottom: 0.75rem;
+    }
+    
+    nav a {
+      color: #bbb;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      display: block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 5px;
+    }
+    
+    nav a:hover,
+    nav a.active {
+      color: #fff;
+      background-color: #ff6347;
+      font-weight: 700;
+      box-shadow: 0 0 10px #ff6347aa;
+    }
+    
+    /* Main content */
+    main {
+      margin-left: 300px;
+      padding: 3rem 4rem;
+      max-width: 850px;
+      scroll-behavior: smooth;
+    }
+    
+    main header {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    
+    main header h1 {
+      font-size: 3.5rem;
+      color: #ff6347;
+      text-shadow: 0 0 12px #ff6347cc;
+      font-weight: 900;
+      font-family: 'Merriweather', serif;
+      margin-bottom: 0.25rem;
+    }
+    
+    main header p {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #bbb;
+    }
+    
+    section.chapter {
+      margin-bottom: 5rem;
+    }
+    
+    section.chapter h2 {
+      font-size: 2.2rem;
+      color: #ffa07a;
+      margin-bottom: 1rem;
+      border-left: 6px solid #ff6347;
+      padding-left: 1rem;
+      font-weight: 700;
+    }
+    
+    section.subsection {
+      margin-bottom: 2.5rem;
+    }
+    
+    section.subsection h3 {
+      font-size: 1.5rem;
+      color: #ff8c69;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+    }
+    
+    section.subsection p {
+      margin-bottom: 1rem;
+      text-indent: 40px;
+      letter-spacing: 0.02em;
+    }
+    
+    /* Scroll progress bar */
+    #progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 5px;
+      background: #ff6347;
+      width: 0%;
+      z-index: 1000;
+      transition: width 0.25s ease-out;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 900px) {
+      nav {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        box-shadow: none;
+        padding: 1rem 0.5rem;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+      nav h2 {
+        display: none;
+      }
+      nav ul {
+        max-height: none;
+        overflow: visible;
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+      }
+      nav li {
+        margin-bottom: 0;
+      }
+      main {
+        margin-left: 0;
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="progress"></div>
+
+  <nav>
+    <h2>Chapters</h2>
+    <ul>
+      <li><a href="#chapterI" class="active"> Night of Shadows</a></li>
+      <li><a href="#chapterII"class="active">Rise of the Vantacore</a></li>
+      <li><a href="#chapterIII"class="active">Journey TO Mustang</a></li>
+      <li><a href="#chapterIV"class="active">The river Hold the Secret</a></li>
+      <li><a href="#chapterV"class="active">Echoes in the Smoke</a></li>
+      <li><a href="#chapterVI"class="active">Redemption’s Not on the Menu</a></li>
+      <li><a href="#chapterVII"class="active">He Wasn’t Who You Thought</a></li>
+      <li><a href="#chapterVIII"class="active">Journey Of Love</a></li>
+      <li><a href="#chapterIX"class="active">The War In Tibet</a></li>
+       <li><a href="#chapterX"class="active">Mystery Of Shadows</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <header>
+      <h1>VANTACORE</h1>
+      <p>Power Beyond the Apocalypse</p>
+    </header>
+
+    <section id="chapterI" class="chapter">
+      <h2>Chapter I: A Night of Shadows</h2>
+      <section class="subsection">
+  
+        <p>The scent of roasted chicken and garlic naan wafted through the family-friendly restaurant in
+Kathmandu. Glasses clinked, plates shuffled, and laughter rang like bells under the dimmed
+chandelier lights.
+In one cozy corner of the hall sat the Sharma family — a picture of warmth and unity in a city
+that never truly slept.
+“OMG! How much he talks! Doesn’t he ever get tired of talking this much?” Sabitri said,
+half-laughing, as she leaned over to nudge her younger son, Samuel, who was deep in yet
+another one of his silly but passionate theories — something about how chickens could be
+trained like dogs.
+Dev chuckled beside her, his deep voice calm and amused. “Let him be. Sometimes the nonsense
+he says makes more sense than the news,” he said, patting Samuel on the head.
+Sabitri smiled faintly, her eyes soft. This was home. This was peace.
+They lived in the heart of Kathmandu, a bustling, ancient city now tangled with neon lights and
+modern shadows. Their family was simple but deeply bonded: Dev, a man once involved in
+"business" people didn’t talk about anymore; Sabitri, a wise, strong woman with roots deep in
+the soil of Nepal; their sons, Samuel and Yosef, both bold but wildly different; and Sophia, the
+eldest, calm as the moon but fierce beneath the surface.
+Tonight was special. They were celebrating Sophia’s recent internship offer at an international
+company. Around them were the remains of a royal dinner — wine glasses half-full, cola
+fizzing, and the warm glow of celebration.
+Suddenly, Sophia stood, adjusting her hair and checking the time. “We need to go to Uncle
+Anthony’s house. He called us at 9:00. It’s 9:45 now. He’ll start sending angry emojis any
+minute,” she joked.
+“Alright, alright.” Dev pulled out his wallet and paid the bill. Then, blinking slyly at Samuel, he
+added, “You girls go ahead. Yosef, Samuel, and I have some unfinished business.”
+Sabitri raised an eyebrow but said nothing. She had long since learned that Dev’s "unfinished
+business" often meant arcade games or quiet talks that sons needed with fathers.
+Sophia and Sabitri left in the car.
+The boys stayed behind, headed straight to the arcade inside the mall, where the neon lights
+flashed like memories and echoes of gunshots in video games mixed with real ones Dev once
+knew.
+Samuel was laughing, trying to beat Yosef in a racing game. Dev leaned against a wall, smiling
+faintly — eyes not really watching the screen. Eyes lost in old thoughts.
+Then his phone rang.
+He picked up. “Where are you? We’re waiting,” Sabitri said. Her voice was colder than usual.
+“Relax, we’re on our way,” Dev replied, slipping the phone into his coat.
+He turned to his sons, voice playful again. “Come on, monkeys. Let’s bounce.”
+But they never made it out.
+10:15 PM
+As they stepped outside into the cold night air, a black SUV screeched to a halt at the edge of
+the parking lot.
+Five figures emerged — shadows first, then metal. Guns. Khukuris. Swords. The streetlight
+flickered above them, as if the city itself was warning them to run.
+Dev stopped in his tracks. His instincts — once buried — came roaring back.
+“What do you want?” he asked, voice calm, eyes scanning for exits.
+One of the masked men stepped forward, his voice low, sharp. “Your life, Dev Sharma.”
+Dev’s breath caught.
+Before he could react, a sword flashed — slicing through the air and across his arm. Blood
+splashed on the pavement.
+Dev grunted in pain, staggering back.
+Samuel and Yosef ducked behind a concrete pillar. “Dad!” Yosef shouted.
+Dev, half-bleeding, reached under his coat — his old habit never died. A folding blade, sharp
+and familiar, slipped into his hand. With a growl, he lunged.
+In a blur, he cut one attacker’s thigh open — the man screamed. Another came forward. Dev
+pivoted and drove the blade into his gut, twisting hard.
+But the third was faster. He slammed Dev across the back with the hilt of a sword, sending him
+to the ground.
+Two more surrounded him. Dev fought to rise. His knees buckled. His vision blurred.
+Then — a word.
+“VantaCore.”
+One of them crouched next to him, pressing the cold blade against Dev’s throat.
+“Tell us where it is,” he said. “Or watch your blood run dry.”
+Dev’s lips trembled. “I don’t know what you’re talking about.”
+The man sighed. “You were always stubborn.”
+He nodded to the others.
+They pushed Dev flat, pressed the blade hard and slowly against his neck.
+Samuel and Yosef watched, frozen. Powerless.
+Dev's legs kicked instinctively. Blood pooled beneath him. His breath became ragged. One last
+twitch — then silence.
+He was gone.
+</p>
+      
+    <section id="chapterII" class="chapter">
+      <h2>Chapter II:Rise of the Vantacore</h2>
+      <section class="subsection">
+
+        <p>The street was silent.
+Not the peaceful kind of silence — this was the hollow, choking silence of death and
+disappearance.
+Dev’s body lay sprawled in the blood-slick street, a red river flowing beneath him. His eyes,
+once sharp with fire and filled with love, stared lifelessly into the black sky. A father. A
+protector. A man who walked with the weight of secrets… now still forever.
+And near the corner of the street, only one boy remained.
+Samuel knelt behind a shattered trash bin, trembling. Blood wasn’t just on his father's shirt — it
+was on his hands too. Not his own. Not from a fight. But from trying to hold what couldn’t be
+held… a life that slipped away.
+He had seen it all.
+The slash that took Dev’s hand.
+The blades that tore into his father.
+The word that kept haunting him:
+"VantaCore."
+The attackers didn't just kill — they erased.
+And then... Yosef vanished.
+Nobody. No scream. No trace. One second he was beside Samuel, and in the blink of violence —
+he was gone.
+Like smoke swallowed by darkness.
+The Funeral – Three Days Later
+Kathmandu wore black.
+The skies wept drizzled over the city’s shoulders as hundreds gathered to mourn two men — Dev
+Sharma, feared and respected, and his son Yosef, presumed dead, vanished like ash in wind.
+But Sabitri… Sabitri didn’t cry.
+She sat stone-still, her eyes hollow and dry. The kind of grief that went too deep for tears.
+Sophia, broken by both loss and confusion, wept quietly in the back corner. Whispers echoed
+through the funeral:
+“Yosef was brave.”
+“He died trying to fight back.”
+“The boy vanished, but the blood on the wall says enough.”
+Samuel stood still. Numb. Words meant nothing anymore. Not when your brother disappears
+before your eyes. Not when the only father you ever had dies holding onto secrets.
+After the final rites, Sabitri called Samuel into Dev’s old study room no one entered anymore.
+She knelt on the wooden floor and opened a hidden latch under the dusty carpet.
+Inside was a steel box. Heavy. Ancient. Humming, almost faintly… like it was alive.
+“You're not a child anymore,” she said quietly. “You’re all I have now. And this… was meant for
+both of you. But now, it’s only you.”
+Samuel stepped forward, hands trembling.
+Sabitri pressed her thumb to the lock. Click.
+The box hissed open.
+Inside lay a sealed black envelope, a data chip, a folded map, and a note.
+Samuel picked up the letter — written in Dev’s unmistakable handwriting.
+"If you're reading this, I’m dead. And Yosef… if he's with you, I pray you both live
+long enough to make sense of this."
+"The world wants VantaCore. It’s not a weapon of war. It’s a weapon of fate.
+Hidden beneath the Himalayas. Feared by gods. Covered by devils. I was its last
+guardian. And now… it’s yours."
+Samuel plugged the chip into Dev’s encrypted laptop.
+A file opened, marked with glowing red text:
+VANTACORE: ORIGIN CLASSIFIED
+Images spilled across the screen:
+A dark, crystalline core. A monastery deep in Mustang. Broken fragments of ancient
+prophecies. And one word carved in stone, in a language older than time:
+"ताण्डव ."
+(The Dance of Destruction.)
+What is VantaCore?
+The last record told everything:
+“73 years ago, it was activated by mistake. Siberia. Nothing survived.”
+“It bends gravity. Destroys balance. It can collapse cities like lungs being crushed.”
+“Only bloodline-coded DNA can access its seal.”
+Samuel backed away from the screen, the echo of his father’s final words ringing in his mind.</p>
+      </section>
+      <!-- More subsections -->
+    </section>
+
+    <section id="chapterIII" class="chapter">
+      <h2>chapter III: Journey To Mustang</h2>
+      <section class="subsection">
+        
+        <p>The house felt like a tomb now.
+Dev and Yosef — gone.
+The echo of their laughter haunted the walls, clinging like dust to every photograph, every
+untouched cup of tea. Grief lingered in the silence like a fog that refused to lift.
+Samuel stood in the doorway of his mother’s room, heart heavy.
+She sat before the dim glow of the oil lamp, prayer beads slipping silently through her fingers.
+Outside, the wind howled — a wild, mournful sound that felt like a warning.
+He stepped forward. “Ma…”
+Sabitri didn’t move.
+“I’ve decided,” Samuel said. “I’m going to Mustang. To find the VantaCore.”
+A beat of silence.
+Then, her voice — low, unshaken, cracked from sorrow yet sharpened by rage:
+“Before you go, I want a favor.”
+He stepped closer. “Anything.”
+She turned to face him.
+Her eyes — those storm-weary eyes — were endless wells of loss, but they burned with
+something terrifying.
+“Do whatever it takes,” she said.
+“But bring your sister back. And avenge your father.”
+Samuel froze. “Sister?”
+A voice came from behind.
+“I’m not letting him go alone.”
+It was Sophia.
+Wrapped in Dev’s old leather jacket, eyes red, fists clenched.
+“I’ve buried two people I love. I won’t sit back and bury another,” she said. “If this road leads to
+answers — or vengeance — I’m walking it too.”
+Sabitri looked at her daughter. She didn’t argue. She didn’t cry.
+She only pulled a raksha thread from Dev’s altar — red and worn — and tied it around both of
+their wrists, knotting them together.
+“Then go,” she whispered. “And don’t come back until you’ve made the earth remember their
+names.”
+The Journey Begins
+By morning, they were gone.
+Samuel behind the wheel. Sophia riding shotgun, shotgun of her own beneath the seat.
+The roads twisted through the Himalayas like veins through a dying body.
+Rain bled from the sky.
+Fog swallowed road signs whole.
+They passed a town where no one would speak until the sun fell.
+A child pointed at them and whispered, “Blood-bonded seekers.”
+And on a mountainside rock, etched by something clawed and not human, a single word:
+“ताण्डव .”
+The Dance of Destruction.
+Nights were colder the deeper they went.
+Sophia cried once. Just once. When she dreamed of Yosef’s laugh.
+Samuel never cried — but sometimes he stared out into the dark too long.
+As they neared Mustang, snow began to fall like ashes from some far-off war.
+A monastery loomed ahead, cloaked in mist and legend.
+Samuel looked at his sister.
+“You sure about this?” he asked.
+Sophia cracked a half-smile. “I’m not here to survive, Sam. I’m here to make gods bleed.”
+And as they walked toward the unknown, Samuel whispered:
+“You took my father.”
+“You took my brother.”
+“Now watch what you’ve awakened.”</p>
+      </section>
+    </section>
+
+    <section id="chapterIV" class="chapter">
+      <h2>Chapter IV: The river Hold the Secret</h2>
+      <section class="subsection">
+      
+        <p>The monastery was far behind them now, a shadow in the rearview mirror. The sky bled orange
+as dusk settled in, brushing everything with melancholy. Sophia was driving, her fingers wrapped
+tightly around the wheel, the road ahead winding through thick forests and silent rivers.
+Samuel lounged in the passenger seat, boots on the dashboard, chewing gum like it was his life's
+mission.
+Samuel: "So, what now? No more monks. No more riddles. Just... where do we even go?"
+Sophia: "Where the road leads us."
+Samuel: "That's not a plan. That's a lazy line from a cheap movie."
+Sophia: chuckles "Better than your idea of following a squirrel last time."
+Samuel: "He was leading us somewhere. I felt it."
+Sophia: "Yeah, to a garbage can."
+Their banter was cut short when Samuel leaned forward suddenly, squinting toward the river that
+snaked beside the road.
+Samuel: "...Wait. Wait, Sophia, stop the car."
+Sophia: "What is it now, another animal spirit guide?"
+Samuel: "No. Look—there. In the river."
+Sophia glanced over—and froze. Her foot slammed on the brake. The tires skidded, the car jolted
+to a stop. There, caught in the slow current, was a boy’s body, floating like a forgotten doll, pale
+and still.
+Sophia: "Oh my God. Oh my—"
+Samuel: "We need to get him. Fast."
+They jumped out. The bank was steep and muddy, roots and stones making the descent
+treacherous. Sophia slipped once, Samuel caught her by the wrist.
+Sophia: "Don't let go."
+Samuel: "I got you. But if you die here, I’m haunting you."
+The water was icy, biting into their skin. Samuel didn’t hesitate—he waded in, boots heavy,
+clothes soaked instantly. The current wasn’t strong, but the boy was drifting out, barely visible
+now.
+Samuel: "I see him! But he's tangled in something!"
+Sophia: "Be careful!"
+Samuel dove under. Seconds passed like minutes. Sophia’s heart pounded. Then—Samuel broke
+the surface, gasping, dragging the boy by the shoulders. Something had wrapped around the
+boy’s ankle—an old fishing net or rope. Sophia splashed in to help.
+Together, they pulled him to the shore, coughing, drenched, breathless.
+Sophia: "Is he... alive?"
+The boy coughed suddenly, spewing water. His eyes fluttered open, dazed, distant.
+Samuel: "Well, he’s breathing. That’s a start."
+They bundled him into the back seat of the car. Sophia wrapped him in her coat. Samuel turned
+up the heater, handing over his half-drunk water bottle.
+Sophia: "Drink. Slowly. You’re safe now."
+The boy stared at them blankly, lips trembling, but said nothing.
+Samuel: "He’s not talking."
+Sophia: "He’s in shock. We need to get him to a hospital."
+They reached the nearest clinic—a small hospital on a hill, dim lights flickering like the place
+had seen better days.
+The nurse looked them over, then the boy, then the clipboard.
+Nurse: "Vitals are stable... he’ll be okay. But... there's something odd."
+Sophia: "What?"
+Nurse: "No ID. No name. No missing person report. No one looking for him."
+Samuel: "That’s... weird."
+Doctor: "He’s not injured. Just cold and dehydrated. You can take him with you."
+Samuel: "Take him with us? Are you serious? We just fished a boy out of a river, we’re not
+adopting him."
+Sophia: "Don’t be rude, Samuel."
+Doctor: sternly "There’s nowhere for him to go tonight. We’re over capacity."
+Samuel: sighing "Why is this our problem?"
+Sophia: "Because we found him. And because it’s the right thing."
+Samuel: mocking tone "Or maybe you’re just falling for the mysterious river boy."
+Sophia: blushing, punching his arm "Shut up, Samuel!"
+Samuel: "Oh, I see that smile! Love at first rescue."
+Sophia: "He’s a child! And he hasn’t even spoken a word!"
+Samuel: "Silent type. Brooding. Classic crush material."
+Sophia: laughing despite herself "You're the worst."
+They drove in awkward silence for a while, the boy curled under a blanket in the back, silent but
+watching. His eyes were sharp, too sharp for someone so quiet.
+Samuel: quietly "There’s something off about him."
+Sophia: "What do you mean?"
+Samuel: "He’s not scared. He’s observing. Like... he's studying us."
+Sophia looked at the rearview mirror.
+The boy’s eyes met hers.
+Unblinking.
+The boy woke up, his head spinning, disoriented.
+Samuel: "Hey, Mr.! Now you're awake, huh? Please, give us our charge. This isn’t a taxi,
+but I still want my money."
+Sophia: "Just shut up, Samuel."
+Samuel: "Oh, alright. Yeah, he’s your boyfriend, right?"
+Sophia: "I said shut up."
+Samuel: "Yeah, Mr., who are you, by the way? What were you doing in the river?
+Catching fish, or... becoming a fish?" (He chuckled) "Come on, tell us. You’re a real
+mystery, man."
+Samuel looked at Jack, who was still silent. He continued, teasingly.
+Samuel: "The doctor told us you weren’t injured, but look at all that blood on your shirt.
+What the hell happened to you?"
+Jack remained silent, staring ahead, lost in his thoughts. His head still ached.
+Jack: "Who are you?"
+Samuel: "Oh, haha, right. Who are we, Mr.? You’re in our car, asking who we are? Are
+you crazy? Did we forget to rescue your brain or something?"
+Sophia: "I said be quiet, Samuel." She sighed, then turned to Jack. "Hello, I’m Sophia,
+and this is my brother Samuel."
+Samuel: "And my sis loves you!" He grinned mischievously.
+Sophia, annoyed, slapped Samuel on the back of his head. "Can’t you sit silently for
+once?"
+Jack glanced at them, still processing everything. He cleared his throat and asked,
+almost as if he hadn’t heard the conversation before.
+Jack: "Can I have your clothes?"
+Samuel: "What? You want my bra and panties too?" He laughed, totally confused.
+Sophia, her face turning red with anger, snapped. "I said shut up, Samuel! Don’t you
+know where to keep your mouth shut?"
+She turned to Jack and spoke calmly, trying to get a grip on the situation. "Yeah, you
+can wear our father's outfit. It might fit you."
+Jack nodded, still wary but grateful. He looked behind him and started changing in the
+car, as the wind outside howled through the window. His body was in motion, quick and
+efficient, as he stripped off his blood-stained clothes and slipped into the loose-fitting
+outfit.
+Samuel: "Wait, Mr.! What are you doing in my sister’s car? Sophia, close your eyes, for
+God's sake!"
+Sophia, feeling awkward, blushed and turned her head, trying to avoid looking at Jack’s
+exposed body. Her face burned red, but she didn’t know how to react.
+After a few moments, Jack finished changing, and Samuel couldn’t help but glance over.
+Samuel: "Well, tell me, who are you? And what are you doing here in the middle of
+nowhere?"
+Jack, now fully dressed in the old clothes, stood up and gave them a steely, cold look.
+Jack: "None of your business, small squid."
+Samuel: "What did you just call me? Squid? You better watch your mouth."
+Sophia, still confused, asked again, her voice laced with suspicion. "What were you
+doing in the river, anyway?"
+Jack’s eyes narrowed, and for a moment, he stared at Sophia as if he recognized
+something in her.
+Jack: "Emma…" he whispered, a strange glimmer of recognition flashing in his eyes.
+Sophia froze. "Who’s Emma? I’m Sophia. We’re here to search for Vantacore."
+Samuel’s eyes widened. "Yeah, tell him everything. Your blood type, your mother’s
+name—everything. Let’s see if you know anything more about us."
+Jack looked confused, not understanding the full depth of their questions.
+Jack: "Vantacore?"
+Samuel: "Oh, no, Mr. It’s nothing. She’s lying." Samuel's tone turned cold, dismissive,
+like he didn’t believe Jack at all.
+Jack, his heart pounding in his chest, looked at them both more closely, his instincts
+screaming at him.
+Jack: "Are you the children of Uncle Dev?"
+Sophia and Samuel froze. Their eyes widened in shock, and for a moment, they looked
+like they were about to lose control.
+Sophia: "How do you know our father?" She slammed on the brakes, the car screeching
+to a halt. The tension in the air was thick.
+Samuel’s hand went instinctively to the sword by his side, pulling it out and pointing it at
+Jack. "What do you know about our father?!" he yelled, his voice shaky with fury and
+fear.
+Sophia grabbed his arm, trying to calm him. "Samuel, no!" But it was too late. Jack’s
+calm demeanor was shaking Samuel's nerves.
+Jack: "What happened to Uncle Dev?"
+Samuel: "Don’t play games with us!" He took a threatening step forward, the sword
+glinting in the dim light of the car. His eyes narrowed, his body tensed for a strike.
+Jack: "Listen to me—"
+Before Jack could explain, Samuel lunged, swinging the sword in a deadly arc. But Jack
+was fast, ducking low and spinning around, narrowly avoiding the attack. He grabbed
+Samuel’s wrist and twisted, forcing him to drop the weapon.
+Sophia’s eyes widened in disbelief, watching the intense struggle between the two men.
+She wasn’t sure what to think anymore, but she could see the raw power in Jack.
+Samuel, enraged, didn’t give up. He threw a punch at Jack, aiming for his jaw. Jack
+blocked the strike, countering with a swift elbow to Samuel’s stomach, sending him
+stumbling back.
+"Why are you attacking me?" Jack shouted, trying to reason with them. "I’m not your
+enemy."
+Samuel, shaking with anger, stood up, his eyes burning with fury. "How do you know our
+father? Where is he?"
+Jack, breathing heavily, stood his ground. "I didn’t want any of this to happen. I didn’t
+ask for this. But I know what happened to Uncle Dev. I know who betrayed him."
+Sophia’s voice shook, "Who? Who betrayed him? What happened to our father?"
+Jack turned his gaze toward her, his expression hardening. "Your father was betrayed
+by someone close to him. He was in danger... and that’s why I had to leave."
+Samuel charged again, but Jack was quicker, grabbing his arm and throwing him
+against the car with force. The impact rattled the windows.
+Sophia screamed, "Stop! Stop it, both of you!" Her heart raced as she watched the
+battle unfold in front of her.
+Samuel, now on the ground, wiped the blood from his lip and stood up, his eyes burning
+with an unspoken rage. "Tell us who betrayed him, Jack. Who did this to our father?"
+Jack shook his head. "I can’t tell you yet. Not until you know the truth about Uncle Dev.
+But trust me, you’re not going to like who was behind this."
+The mystery deepened, and the tension between them could have cut through steel.
+Samuel and Sophia stood there, their breaths heavy, their minds racing as they tried to
+piece together the puzzle.
+The fight wasn’t over, but the confusion and mystery had only just begun.
+</p>
+      </section>
+    </section>
+
+    <section id="chapterV" class="chapter">
+      <h2>Chapter V: Echoes in the Smoke</h2>
+      <section class="subsection">
+        
+        <p>Sir Jack ran away from the jail. One of the policemen came to the head office and started
+complaining about Jack. All the policemen started a search mission to catch him. All the
+department cars were deployed to catch Jack, but unfortunately, he had already left the
+city.
+"Why are you sad, Mr. Parkour?" the head of the policemen asked Mr. Parkour. "You
+know that bloody Jack ran away from prison," Mr. Parkour replied.
+"Now what will he do in the city?"
+"Oh please, be calm. Nothing will happen. You don't know the real story of Jack. He's a
+nice guy, before that incident," Robert Harvey, the head of the policemen, told Mr.
+Parkour.
+Mr. Parkour: "Incident? What do you mean?"
+Robert Harvey: "Come on, let's sit and talk about it."
+A long time ago, in the city of "Bargue," which is near the ocean, there was a huge blast
+at a home where Mr. and Mrs. Harvey lived together with their newborn baby boy. Mr.
+B. Harvey was a very pleasant person, dedicated to his passion and work. He was a
+retired army man and a social worker; he was everything to the poor and needy. But one
+day, some misguided people planted a bomb in their home, and in the middle of the
+night, it exploded.
+Mr. Parkour: "Mr. B. Harvey, is he related to you?"
+Mr. Harvey: "Yes, he was my older brother."
+Mr. Parkour: "Who put a bomb in their home? How did Jack survive, and how did
+Jack become evil?"
+Mr. Harvey: "Listen to me first."
+At the time of the blast, Jack was with me in the hospital because my brother and Mrs.
+Harvey were busy. When I arrived at their home, there were fire brigades, ambulances,
+police forces, and a huge crowd. All I could do was sit silently, controlling my emotions.
+Then, people started talking about Jack, not knowing that he had been with me. They
+thought he had died in the blast too. I decided to take care of him and raise him as a
+responsible young man while trying to solve the case.
+He sat with me, and because of his responsibility, I never hesitated to take care of him.
+He was brilliant—one in a billion. He used to follow me in my job, and I was happy that
+he was interested in helping others. He went to school and lived a normal life as a kid.
+He was a topper in his class and even excelled at sports, just like my brother. One day,
+Jack fell in love with Lucille. She was everything to him. Lucille also cared for Jack and
+treated him like a mother, even calling him her life partner. She loved him back and
+knew everything about his past.
+I told her everything about him, and I thought she would take care of him as I did, but it
+turned out to be my biggest mistake. One day, we went to meet her parents. Her parents
+asked about Jack's real parents, but Jack didn't know anything about that. He thought I
+was his real father. Lucille told her parents everything about Jack, and Jack was
+shocked. He even told her parents that I was his biological father. Lucille’s parents
+laughed, saying, “The man who never married in his entire life is your biological father?
+What a stupid thing to say.”
+Lucille: "Please shut up!" she shouted in anger. Jack stood up and left. I joined my
+hands in apology, saying, "Thank you for your rude behavior. Instead of this, you could
+have simply rejected him." I went home, but Jack was nowhere to be found. He
+disappeared suddenly and reappeared after a few months. I slapped him and asked
+where he had gone. He told me that he now knew everything about his real parents. I
+was shocked, wondering who told him, but he also revealed that he had fallen in love
+with a girl who loved him more than Lucille.
+I asked him how he met her, and he explained:
+"When he left Lucille’s house, he was overwhelmed by depression and had no idea what
+had happened. One day, while sitting alone in the park, a girl wearing a mask came and
+sat next to him. They talked about their families and their problems. The girl told him
+that her parents had kicked her out because she wasn’t beautiful. Then, Jack asked her
+to remove her mask. Her face was severely burned, and one of her eyes was completely
+destroyed. Her hand was also damaged. She covered it again. They lived together in a
+small apartment and got engaged. The girl was amazed that Jack loved her even after
+seeing her disfigured face. They took care of each other, and their love grew stronger.
+Jack decided to introduce her to me. She was shy and struggled to talk with me, but she
+was polite and respectful. She had a good heart, and I could tell her family must have
+been respectable."
+Mr. Parkour: "Who was she, sir? How did she meet Jack?"
+Mr. Robert: "None other than your own daughter, who was killed. Her body parts were
+scattered over the garbage, and you've been searching for her all these years."
+Mr. Parkour was stunned. He couldn't believe it. He took a deep breath, closed his eyes,
+and took a sip of water to calm himself. Then he shouted in anguish, tears streaming
+down his face, "Sir, why did you hide this from me? Why are you supporting Jack?
+Where is my girl?" He cried her name, “Emma.”
+Mr. Robert continued:
+"After a few years, Emma started showing abnormal behavior. Jack took her to the
+hospital, but they never returned home. When I went to the hospital where Jack had an
+appointment, they told me that he hadn’t shown up. I thought, 'Bloody hell, he's run
+away again.' But I remembered there was a microphone and a camera in the car that I
+could listen to with my special earphones. I tuned in and heard:
+Emma said to Jack, 'Jack, I want to tell you something. I’ve seen your parents' photos
+that hang on your wall at home.'
+Jack was shocked. 'How do you know about them?' he asked.
+Emma replied, 'I was the one who killed them in the blast. I lied to you about being
+younger than you, but I was 12 years old when the bomb exploded. One man, with a
+mustache, asked me to put a bag somewhere. I did as he told me, but when I ran
+towards him, he was gone. I searched for him, and after a few minutes, the bomb
+exploded. I was scared. I turned around and saw the house destroyed. I ran to the site,
+but my face was burned terribly, and my appearance changed forever. I accept that as
+my fate, and I’ve suffered my punishment for it. That’s why I left school.'"
+Jack was silent. Emma also stopped talking. Then, Emma cried and said, "Forgive me,
+Jack." She asked Jack if he knew who that man was. Jack asked, "Do you know him?"
+She said she didn't, but she recognized him from a photo. His name was Robert.
+Suddenly, Mr. Robert came and cut Emma’s neck. When Jack came out of his car, he
+pulled Mr. Robert by the collar, threw him into a dense cave, and attacked him with a
+rod. Mr. Robert raped Emma's dead body, then began cutting her body into pieces,
+throwing some parts into the jungle, some organs into a pit, and burning others. After a
+while, Mr. Robert called the police, ordering them to arrest Jack and remove all the
+evidence.
+Mr. Parkour: "Why did you kill your own brother?"
+Mr. Robert: "Because he tried to stop one of the businesses I was running with my
+partner."
+Mr. Parkour: "Which partner, sir?"
+Mr. Robert: "The one sitting in front of me."
+Mr. Robert and Mr. Parkour laughed and hugged each other. "Don't worry, Jack will be
+caught. I've implanted a bug and laser radiation that will make him unconscious after a
+few minutes. Now, forget about this topic and come to my house. We’ll enjoy ourselves.
+I've invited three 'hot items' over," Robert laughed.
+Jack staggered through the charred forest, breath ragged, shirt torn and face bloodied.
+Smoke clung to the air like ghostly hands. His legs barely obeyed him, but he kept
+moving, driven by something primal—survival, or maybe guilt. Each step sent waves of
+pain radiating from his neck down his spine. The bug implanted by Robert pulsed hotter
+with every breath. It was no longer just tracking him; it was hurting him. Cooking him
+from the inside.
+He collapsed by a stream, falling hard onto the rocks. The cool water hissed against his
+skin as the bug flared again. He writhed in the dirt, vision flickering. Distant memories
+played like broken film reels in his mind—Emma’s laugh, her trembling fingers, Robert’s
+calm voice saying, "You failed to protect her."
+"Emma..." he whispered, before the darkness took him.
+He awoke to firelight flickering on stone walls. The air was thick with the scent of metal,
+smoke, and something else—oil and antiseptic. A man sat across from him, sharpening a
+blade. Muscular, scarred, with sharp eyes that hadn’t known peace in years.
+"You’re lucky you didn’t die," the man muttered.
+"Who... are you?" Jack croaked.
+"Dev. I lead what’s left of those who resist Parkour's corruption. We call ourselves the
+Remnants. And you're bleeding all over my floor."
+Jack sat up slowly. Pain danced across every nerve. Dev tossed him a small parcel.
+"We found that in your coat. Thought you'd want it."
+Jack unwrapped the bloodied cloth. Inside, a torn, crumpled letter. Emma’s
+handwriting. He froze. For a moment, the world narrowed to just the paper in his hands.
+*"If you're reading this, I'm probably gone.
+Jack, I don't have much time. I knew Robert's plans, and I knew they'd come for me. I
+tried to run, to hide what I found. I failed.
+But you can't.
+Your pain isn’t a curse. It’s proof that you cared. You’ve always cared more than you
+should.
+In my backpack, there's a list of names. Men and women who helped Robert. Police
+officers, lawyers, tech billionaires. Monsters hiding behind smiles.
+Don’t let them erase me. Or what we fought for.
+And Jack... I never wanted to be a villain in your story.
+But if I am, I hope you burn my pages with fire, not hate.
+● Emma"*
+Tears didn’t come. Only silence. Jack folded the letter with trembling fingers.
+Dev poured two cups of something strong and foul-smelling. "That bug in you. It’s not
+just a tracker. It’s military-grade. Emits radiation when tampered with. You’re lucky it
+hasn’t fried your brain."
+"Can you remove it?"
+Dev nodded. "But it’ll hurt. You sure you want this?"
+Jack looked into the flames, Emma's voice echoing in his head.
+"Do it."
+They laid him down, strapped his arms, bit of leather between his teeth. Dev dug in with
+steady hands and jagged tools. Pain bloomed like wildfire. Jack screamed, thrashed, but
+never begged.
+By the time it was over, the bug lay sizzling in a steel bowl. Jack lay soaked in sweat,
+bones shaking.
+Dev looked at him. "You’re free now."
+Jack turned his head, eyes blazing.
+"No. I’m just getting started."
+Thanks for your help I will go now."Jack said"
+You should return this "Dev replied"
+"What?" Jack was shock
+Your Father was the one who saved me 2 yrs ago and I was healing myself but Parkour
+Army Attacked Me
+Yesterday and I was unconscious idk what happened to me</p>
+      </section>
+    </section>
+
+
+    <section id="chapterVI" class="chapter">
+      <h2>Chapter VI:Redemption’s Not on the Menu</h2>
+      <section class="subsection">
+        
+        <p><strong>[Scene: Sunset bleeds into the sky, streaking gold and blood-red across the
+window of Thakali Bansha Ghar. A heavy silence blankets the rustic
+restaurant. Jack, Sophia, and Samuel sit at a table near the window. Plates
+untouched. The air thick with unspoken thoughts.]</strong>
+Jack (softly but firmly):
+Listen, first… we should eat something. Regain our strength.
+Then, we begin our journey… to Vantacore.
+Samuel (snaps, eyes blazing with disbelief):
+What?! Excuse me, mister, but who said you’re coming with us?
+Why the hell would you tag along?
+(sarcastically)
+Just to be a part of some grand adventure? Or are you hiding something behind that
+noble tone?
+[Sophia sits silent, staring down at the table.]
+Samuel (voice cracks with frustration and a deep ache):
+And you, Sophia…
+Can’t you speak for once?
+What are you doing? Are you really… in love with him?
+(after a pause, voice trembling)
+You know what I’ve lost.
+I lost Dad… I lost Yosef…
+I watched their bodies lowered into the ground, and my soul went down with them.
+I can’t lose you too, Sophia. I just can’t.
+[Sophia still silent. A shadow of conflict passes over her face.]
+Jack (calm, sorrowful):
+Samuel… I know what’s going through your heart. I know you don’t trust me.
+But I’m not here because of greed.
+I don’t want Vantacore. I never did.
+Your father… he saved my life once. When no one else would.
+I owe him a debt I can never repay.
+But I can try — by standing with his children when the fire comes.
+And there’s another reason.
+I want revenge.
+For Emma.
+[A long silence. Sophia’s head lifts slowly, her breath hitching. Samuel
+watches her face as something flickers in her expression — shock,
+recognition.]
+Samuel (quiet, cold):
+Emma?
+Who the hell is Emma?
+Jack (voice deepens, pain bleeding into his words):
+She was the love of my life.
+She was all the light I ever knew.
+And they took her from me. Burned her smile to ash.
+I still hear her voice in my dreams… and when I wake, the silence is unbearable.
+Vantacore is not just a name. It’s where the blood trail ends.
+[Sophia’s eyes well up. Samuel notices. Something shifts in him — anger
+mixed with fear.]
+Samuel (voice shaking):
+I don’t care about your sob story.
+I’ve protected my sister since the day Dad died. I’ve bled, starved, fought for her.
+I don’t need a stranger’s help.
+Especially not a clumsy fool chasing ghosts.
+(turns to Sophia)
+Well?
+Are you coming with me… or staying here with this walking tragedy?
+Choose now. I’m leaving. I don’t need either of you.
+Go to hell — both of you.
+[He turns to walk away. His footsteps echo.]
+Sophia (softly, barely a whisper):
+Samuel… please… listen.
+[He halts. Turns. The pain in his eyes is almost unbearable. Sophia stands
+slowly, her voice stronger, but still trembling.]
+Sophia:
+All these days… you've carried so much pain.
+You’ve been more than a brother — you became my shield, my hope, my anchor.
+But Jack is right.
+And deep down… you know he is.
+Dad told us something before he left us to the world’s cruelty.
+He said — “No matter how dark it gets… never forget your humanity.”
+We are not beasts, Samuel.
+We are not meant to walk this world alone in rage and revenge.
+Jack has demons, yes. So do we.
+But sometimes, broken souls recognize each other…
+and walk together because the path ahead is too cruel to face alone.
+I’m not choosing him over you.
+I’m choosing the mission, the truth, and the legacy Dad died protecting.
+Please…
+Don’t let pain blind your heart.
+Don’t let fear turn you into the very thing you hate.
+We need each other. All three of us.
+Or we’ll fall.
+[Samuel’s fists tighten. His breath is ragged. Slowly, his eyes meet Jack’s. A long, heavy
+silence. Then… a nod. Just once.]
+Samuel (low voice):
+One mistake, Jack… just one…
+And I won’t hesitate.
+Jack (firm):
+Then I won’t give you a reason.
+[Scene continues. Just as the waiter brings the steaming Thakali Set, chaos erupts.]
+Jack (casually, trying to lighten the mood):
+Okay. Let’s eat something first… and then we’ll discuss the next step.
+Samuel (grinning slightly):
+One Thakali Non-Veg Set, please. Extra spicy. I want the meat to cry.
+[Suddenly — CRACK! BANG! — a deafening gunshot tears through the air.]
+[Plates shatter. People scream. Sophia flips the table, and all three dive to the ground as
+bullets fly over their heads.]
+Samuel (furious, ducking):
+Oh for f— WHAT IS THIS NOW?!
+Can’t a man even eat in peace!?
+[Without hesitation, he pulls out a hidden knife from his boot, eyes narrowed like a wild
+animal.]
+[An assassin, face covered, is charging toward Sophia, blade raised — but Samuel lunges
+backward without even looking, burying the knife into the attacker's throat. Blood sprays
+against the wall. The attacker drops, gurgling.]
+Jack (eyes wide, silent, but impressed):
+…Damn.
+[Sophia is rattled, but her hand reaches into her coat — click! — a compact black pistol
+now in her grip, aimed and steady.]
+[But before she can shoot, the doors burst open. A gang of 25 men floods the restaurant —
+mercenaries, assassins, bounty hunters. Armed. Cold eyes. Smirking. They spread out in
+formation.]
+[Jack whispers, scanning the room quickly.]
+Jack:
+Twenty-five... Fantastic. Did someone put a price on our heads I didn’t hear about?
+[He grabs the steel water mug and flings it like a missile — it hits the leader in the temple,
+sending him crashing into another man like bowling pins.]
+[While the others flinch — Samuel crouches beside the first attacker he killed, grinning
+madly as he searches his pockets.]
+Samuel (mocking):
+Oh baby… are you hurt? Want a hug?
+No? Well then... may I take your cash? I’m starving, after all.
+[Jack shouts, urgency in his voice:]
+Jack:
+Samuel, RUN!
+Samuel (laughing):
+Run? Why run when the party’s just begun?
+[The mercenaries now encircle them. But it’s too late. Jack, Sophia, and Samuel are
+surrounded — trapped.
+Then—BOOM. The storm begins.
+[Jack explodes into action. He flips a chair into one attacker’s face, grabs a fork, and stabs
+it directly into another man’s thigh. As the man howls, Jack kicks him into a pillar,
+cracking the wood.]
+[Sophia fires two clean headshots — bang! bang! — dropping two enemies instantly. She
+reloads without flinching, rolls under a table, and shoots through the wood, hitting one in
+the foot.]
+[Samuel is now a wild force — jumping on tables, flipping over chairs, slicing with his knife
+like a possessed panther. He slashes one throat, kicks another in the gut, then jumps on a
+man’s shoulders, stabbing both sides of his neck like he’s playing a violin made of blood.]
+[An attacker swings a bat at Jack — he ducks, grabs it mid-air, and breaks it in half over
+his knee. He then uses the jagged wood to impale another man through the stomach.]
+Jack (shouting):
+Sophia! Cover left! I’ll handle right!
+[Sophia slides on her knees, firing two rounds to the left, one bullet ricocheting off a
+hanging light into a man’s chest. Blood sprays on the restaurant walls like a crimson
+mural.]
+[One of the enemies lunges at Samuel with a sword — Samuel catches the blade with his
+bare hand, bleeding, but smiling.]
+Samuel (whispers):
+Now that’s a real knife.
+Mine’s bigger.
+[He drives his own blade into the man’s eye socket. The body drops like a sack of bones.]
+[The restaurant is now in shambles. Tables smashed. Walls splintered. The air smells of
+blood, smoke, and rage.]
+[Jack runs up the stairs with two enemies chasing him. He kicks one down the railing, who
+lands hard on a broken table leg — impaled. Jack then jumps from the top floor with a
+broken bottle in each hand, stabbing both into the shoulders of the next man before rolling
+to his feet.]
+Sophia (screaming):
+Behind you, Jack!
+[She throws a knife — it spins perfectly through the air and lodges into the throat of a man
+sneaking up behind him. Jack nods in thanks.]
+[Samuel is cornered by three thugs — he picks up a burning lamp and throws it into one’s
+face. As the man screams, Samuel grabs his rifle and turns it on the other two — blam!
+blam! Done.]
+[Finally, the dust settles. Only three enemies left. They hesitate, seeing the carnage.]
+Jack (voice low, blood on his face):
+You really wanna be heroes?
+[They drop their weapons and run like rats.]
+[Silence. Broken furniture everywhere. The restaurant is nearly destroyed. The trio stand
+in the center — panting, bloodied, but alive.]
+Sophia (breathing heavily):
+...So much for dinner.
+Samuel (grinning):
+That was better than dinner.
+Jack (wiping his face, then smiling slightly):
+This is just the beginning.
+[Scene: Inside the shattered Thakali Bansha Ghar restaurant. Smoke. Glass. Blood.
+Silence. And then—another crack. A blur of motion.]
+[One of the last surviving gangsters sneaks up and—WHAM!—slams the butt of his rifle
+into Sophia’s head. She crashes into the brick wall behind her, blood trailing down her
+forehead. Her pistol slips from her hand.]
+[Jack spins to help—but BANG! a shot rips through his leg. He collapses, gripping his
+thigh, wincing in agony.]
+[Samuel turns around, and time seems to freeze.]
+[He sees Sophia—his sister, the only family he has left—clutching her head, trying to rise.
+Her hands were shaking. Blood dripping. And something inside Samuel...snaps.]
+Samuel (eyes wide, voice trembling):
+...You hurt her?
+[Silence. A low hum fills his ears. His pupils dilate. His lips curl back like a wolf. And then
+he screams—so loud it echoes through the valley:]
+Samuel:
+AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHH!!!
+FUCK YOU BASTARDS!! I’M GONNA RIP YOUR FUCKING SOULS OUT!
+[The gangsters freeze. It’s no longer a boy in front of them. It’s something else. Something...
+wrong. Twisted.]
+[Samuel charges, leaping like a mad animal. He tackles one thug to the ground, drives his
+knife deep into his throat and keeps stabbing, again and again, blood splashing across his
+face as he laughs like a man possessed.]
+Samuel (grinning, eyes glowing with hatred):
+Can’t handle it now?
+Suck it, baby! COME ON! Why so shy now, huh?
+Didn’t think I’d dance on your grave tonight, DID YOU?
+[He licks the blood off his blade, tilts his head like a demented puppet, and flashes an evil,
+crooked smile.]
+[He spits in the man’s mouth. The thug tries to scream—Samuel grabs his jaw and slices the
+tongue clean out.]
+Samuel (whispers):
+Say goodnight, sweetie.
+[Then he slashes the man’s fingers off one by one—snip—snip—snip, the screams piercing
+the night—and finally cuts his throat open like carving a feast.]
+[Another two gangsters try to run—Samuel doesn’t let them. He throws his blade, hitting
+one in the calf. As the man falls screaming, Samuel dives on him like a wolf, fists pounding
+his face into the floor until it’s a pulp.]
+[He grabs a broken chair leg and impales the last one through the chest. Blood gushes.
+Samuel just breathes. Heavy. Eyes dead. Face emotionless.]
+[Jack, barely conscious, reaches for a metal water jug nearby. He looks at Samuel—his
+hands soaked in blood, lips whispering something only he can hear, completely lost to
+madness.]
+Jack (muttering):
+It’s over…
+That’s enough…
+[He splashes the cold water straight into Samuel’s face—WHOOSH!—a blast of reality, of
+humanity.]
+[Samuel flinches. Staggers back. Eyes rolling. Then—BOOM. He collapses. Out cold. His
+body shaking from adrenaline, rage, and exhaustion.]
+[All three of them, broken, bruised, and bloodied....]
+</p>
+      </section>
+    </section>
+
+    <section id="chapterVII" class="chapter">
+      <h2>Chapter VII: He Wasn’t Who You Thought</h2>
+      <section class="subsection">
+      
+        <p>Samuel’s eyelids fluttered open, blinking away the blur. A soft light flickered above. The room
+was dim, the walls old stone. He turned his head slightly and saw Jack and Sophia—whispering,
+worried, sitting across from him. They looked tired, but alive.
+Sophia (rushing to him, hugging tightly):
+“You’re awake! Thank God... Are you okay?”
+Samuel (still groggy):
+“Where... where are we?” (his voice cracked with confusion)
+Jack (tense, watching him closely):
+“I wish I knew. But more than that—what the hell happened back there? You... you lost control,
+man. You were like some kind of—”
+Samuel (eyes wide, interrupting):
+“What are you talking about? I don’t remember anything... I don’t even know what you mean!”
+(genuinely shocked)
+The air grew cold. A faint shadow moved behind the doorway—silent and deliberate. Then, a tall
+monk in dark robes entered, flanked by three armored guards. His presence was calm, but his
+eyes... they held centuries.
+Jack (standing up, guarded):
+“Excuse me... Are you the one who brought us here?”
+Monk (with a slow nod):
+“Yes.”
+Sophia (firmly):
+“Why? Why did you take us?”
+Monk (gesturing gently):
+“Because you were all injured. You needed shelter.”
+Samuel (staring hard at him):
+“I’ve seen you before... somewhere.”
+The monk paused. For a moment, silence echoed louder than any words. Then he stepped
+forward, eyes fixed on Samuel.
+Monk:
+“How... Did you use the power of Vantacore?”
+The name hit the room like thunder.
+All Three (almost in unison):
+“Vantacore?!”
+Sophia (narrowing her eyes):
+“How do you know that name? How do you know us?”
+Monk (calmly):
+“Are you the son... of Arin?”
+Samuel (snapping):
+“Who the hell is Arin? Our father’s name was Dev.”
+The monk reached into his robe and pulled out an old photograph—creased with time. He
+handed it over.
+A man stood in the picture. Dressed in a sleek black outfit, a gun in his grip, a smile on his face.
+Three guards stood beside him like shadows. Jack and Sophia leaned in. Their eyes widened.
+Samuel (pointing):
+“That’s our dad. That’s Dev. Why do you have this?”
+Monk:
+“Because your father was not just a man named Dev. His real name... was Arin. And he was the
+Guardian of Vantacore.”
+Samuel froze. The photo trembled in his hands.
+Samuel (angrily):
+“What kind of twisted game is this? My dad was a businessman. Not some warrior! Not some...
+Guardian!”
+Monk (smiling faintly):
+“Come closer, little boy.”
+Samuel (fuming):
+“I’m not a little boy. And you didn’t answer my question. How do you know him? What’s
+Vantacore? And why... Why was your photo in my dad’s study?!”
+Sophia turned sharply, shocked.
+Sophia:
+“What?! You saw his picture in Dad’s study?”
+Samuel (ignoring her):
+“Who are you? And did you kill our father?”
+Monk (eyes softening, almost sadly):
+“As I expected.”
+Sophia (stepping forward):
+“What do you mean ‘as I expected’?”
+Monk:
+“Arin—your father—was not only the Guardian of Vantacore... he was its chosen protector. The
+fighting style you used, Samuel... It is not random. That power, that rage—it’s been passed down
+through blood. Through generations. Vantacore chooses its Guardian... and it seems... it chose
+again.”
+Samuel (shaking his head):
+“No. No, this is insane. He ran a business. He filed taxes. He made pancakes on Sundays! He—”
+Monk (interrupting gently):
+“He also trained in silence. Fought in shadow. Hid who he truly was... for your safety.”
+The monk stepped back and motioned toward a set of cushions around a low table.
+Monk:
+“There is much to explain. And very little time left.”
+Jack, Samuel, and Sophia exchanged stunned glances. The past they'd known was already
+unraveling... and something deeper, darker, and far older was rising to the surface.
+23 Years Ago……..
+Location: City Park | Time: 1:00 PM | Weather: Clear skies, but storm in the air
+The park was still. A man sat alone on a rusting bench beneath a maple tree — face hard as
+stone, dressed in a charcoal coat. Arin. His eyes scanned the world like a hawk. Kids played
+nearby. Birds chirped. Lovers whispered. But something in the air... something was wrong.
+Then —
+CRACK!
+A single gunshot shattered the calm like lightning splitting a grave.
+Screams. Running. Chaos.
+Second shot. Then a third. Then a storm.
+Automatic fire echoed across the park. Bark exploded off trees. A mother cried out, dragging her
+son across the grass. People collapsed, some alive, some already gone.
+Arin didn’t flinch.
+He rolled sideways over the bench, bullets splintering wood as he ducked behind it. From
+beneath his coat, he drew his weapon — a black steel pistol, modified, brutal, his signature.
+Two men emerged from a van across the field.
+Black suits. Assault rifles. Expressionless faces.
+Arin (muttering coldly to himself):
+“You picked the wrong damn park…”
+He darted toward the stone pathway, low and fast. Bullets chased him like angry bees. A kid’s
+balloon popped mid-air — not from joy, but from gunfire.
+He moved like shadow and steel.
+Jumped over a bench. Spun. Fired.
+BOOM — headshot. One down.
+Blood sprayed the grass. The man dropped like a puppet cut from strings.
+Another enemy popped out near the fountain —
+Arin took two to the chest, rolled behind the fountain, came up fast, and fired three clean
+rounds to the jaw. The body fell, skull caved in, weapon slipping from limp fingers.
+But they weren’t done.
+More arrived. A whole damn strike team.
+Thirteen armed. Tactical gear. Laser sights scanning for a ghost.
+Arin wasn’t running.
+He was hunting.
+He sprinted up the side of the pedestrian flyover like death on feet. Boom, boom — shots fired at
+his heels. One grazed his shoulder — blood soaked into his coat, but he didn’t stop.
+At the top, he knelt. Looked down. Found the target.
+A bald man in a grey coat giving orders, surrounded by bodyguards.
+“That’s him,” Arin hissed.
+Deep breath. Aim.
+And then—BANG.
+The bullet kissed the skull.
+The man’s head snapped back like a broken clock spring. Brain and bone scattered like gravel
+on concrete.
+Screams from the men below. Panic.
+But Arin was already airborne — diving off the flyover like a demon unleashed.
+He hit the ground. Rolled. Came up firing.
+One in the leg — he dropped.
+One in the neck — he choked on blood.
+Two more — clean chest hits. Straight to the heart.
+They tried surrounding him.
+They thought he was just a man.
+But he was Arin.
+The Guardian of Vantacore.
+The man who made steel afraid of silence.
+Bodies littered the ground. Park benches broken.
+Children’s toys covered in blood.
+And Arin...
+...stood in the middle of the massacre, coat torn, breath heavy, gun smoking in his fist.
+Only one enemy left. Crawling. Pleading.
+Arin (coldly walking up):
+“Who sent you?”
+The man (bleeding, coughing):
+“I-I... I can’t…”
+Arin:
+“You already died the moment you missed.”
+One last shot.
+Silence.
+Arin (brushing dust off his jacket, eyes darting):
+“Who the hell were they?
+Lucas (checking his bleeding arm):
+“No idea, boss. But they weren’t just some street punks… Are you okay?”
+Arin (gritting teeth):
+“Who can hit me, huh? They got guts.”
+(He glances around, then freezes as he sees someone — a girl, sitting quietly by the edge of the
+chaos. Alive. Untouched.)
+Arin (concerned, walking over quickly):
+“Wait… look. That girl—is she okay?”
+(He starts walking before Lucas can answer.)
+“What the heck… I can’t just sit quietly.”
+[Arin walks up to the girl, his confidence slowly turning into awkward hesitation.]
+Suzuna (calm, composed, with a mysterious softness):
+“…Hello.”
+Arin (blinks, heartbeat suddenly louder):
+“Uh—Hi…”
+(He scratches his neck, suddenly aware of his messy hair and bruised lip.)
+Suzuna (smiling):
+“Thanks.”
+Arin (confused):
+“For… what?”
+(He chuckles nervously.)
+“Do we… know each other?”
+Suzuna (head tilted slightly, teasing voice):
+“So you mean… we should know each other?”
+Arin (trying to recover):
+“N-no! I mean—yeah. No! I just thought maybe we’ve met before or something…”
+Suzuna (giggling softly):
+“You’re not as scary as you look, you know.”
+Arin (smiling shyly):
+“Yeah, well… I’m full of surprises.”
+Suzuna (stepping closer, whispering just loud enough):
+“You saved people today. Including me. I don’t forget faces like that.”
+Arin (frozen for a second):
+“I… I just did what had to be done. Anyone would.”
+Suzuna (soft gaze):
+“No. Not everyone would.”
+(A beat of silence. Her hair dances in the wind. His heart skips a little.)
+Suzuna (smiling again):
+“Tomorrow. 2 PM. Cozy Café on 7th Street.”
+Arin (blinking):
+“Wait, what?”
+Suzuna (already walking away):
+“Be there. Or I’ll assume you’re just another soldier who hides behind a gun.”
+(She looks back one last time. A wink.) Arin (softly to himself):
+“…What just happened?”
+(Then smiling, caught off guard by his own feelings.)
+“Cozy Café… huh? Damn.”
+Lucas (from a distance):
+“Boss! You okay?”
+Arin (grinning, dazed):
+“Yeah. I think… I just got hit again. But not by a bullet this time.”
+</p>
+      </section>
+    </section>
+
+
+    <section id="chapterVIII" class="chapter">
+      <h2>Chapter VIII: <strong>Journey Of Love</strong></h2>
+      <section class="subsection">
+     
+        <p>Time: Next Day | 2:00 PM | Location: Cozy Café, Corner Table, Rain Tapping on Glass
+Arin sat at the table early. He couldn't stop looking at the door.
+His hands were calm, but his chest?
+It was chaos.
+She walked in.
+Suzuna.
+The bell above the door chimed like a melody written just for this moment.
+She wore a cream-colored dress — simple, yet she lit up the café like it was painted around her.
+The world slowed. Even the music in the café lowered its voice.
+Suzuna (smiling):
+"You came early."
+Arin (standing up nervously):
+"Time runs slow when you’re waiting for something beautiful."
+Suzuna (blushing):
+"You always talk like that?"
+Arin (laughing softly):
+"Only when I’m sitting in front of someone who makes the rest of the world disappear."
+She sat. Their knees brushed beneath the table — a small spark, but it set his soul on fire.
+Suzuna (looking into his eyes):
+"You saved lives yesterday. But I think… you just saved mine too."
+Arin (voice low, sincere):
+"Fighting is easy. It’s this—sitting across you, trying not to fall deeper—that’s the real battle."
+Suzuna (softly, leaning closer):
+"Then stop fighting. Just fall… with me."
+Their hands met on the table. Warm. Nervous. Real.
+✦ Later That Evening — Long Walk Under the Rain ✦
+Suzuna and Arin walked under one umbrella.
+Not speaking much. Just listening to the rain and each other's breathing.
+Suzuna (whispering):
+"Tell me something no one knows about you."
+Arin (after a pause):
+"...I pretend to be strong. But every night, I wish someone would hold me and say, ‘It’s
+okay to stop fighting now.’”
+Suzuna stopped. Held his hand tighter.
+"Then let me be that someone."
+Rain is falling harder now. Thunder low in the distance. The taxi pulls up outside a modest
+apartment complex, dimly lit and wrapped in ivy. Suzuna takes Arin’s hand and leads him inside.
+INT. SUZUNA’S APARTMENT – EVENING
+They step inside. The place smells like lavender and old books. The walls are painted with soft,
+melancholic colors. Rain patters gently against the window.
+Arin (looking around, surprised):
+“Woah… this is your place? It’s… beautiful.”
+Suzuna (smiling softly, kicking off her shoes):
+“Thanks. It's my sanctuary.”
+Arin (gazing out the window):
+“Mind if I sit here for a while? Something about rain and quiet rooms… they slow time.”
+Suzuna (walking toward the bedroom):
+“Of course. Make yourself comfortable.”
+(A pause. The sound of drawers opening.)
+Arin (voice soft):
+“Do you… live alone?”
+Suzuna (voice distant):
+“Yeah. Lost my parents when I was nineteen. Since then… it’s just been me.”
+Arin (turning toward her):
+“I’m sorry for your loss. That’s… that’s heavy.”
+(He pauses, words lost.)
+Arin (whispering to himself):
+“Damn, the line’s gone.”
+Suzuna (from behind the door):
+“It’s okay. Sometimes silence says more.”
+(Then: a beat. The lights go off. A single bedside lamp flickers, then dims.)
+Suzuna (softly):
+“Mind if I change? The lights are off.”
+Arin (caught off guard):
+“Uh—yeah. Sure. I’ll just… close my eyes.”
+(He sits, eyes closed. But he hears the subtle sounds of clothing falling to the floor. The room
+now smells of her perfume—soft jasmine and stormwater. Then, suddenly… warm skin presses to
+him. Hands gentle. She guides his head to her bare chest.)
+Arin (eyes fluttering open, startled):
+“Suzuna… what are you—”
+Suzuna (voice trembling, but determined):
+“I can’t lose you… My love.”
+Arin (heart pounding):
+“Your… love?”
+(She doesn’t answer. She just holds him tighter. His head on her skin, her heartbeat loud like
+thunder. It calms him. Silences him. He closes his eyes. Then—flash—lightning outside. The
+power flickers on. Arin, reacting on instinct, pulls his gun and fires at the bulb—CRACK!—the
+room falls into darkness again.)
+Only rain, breathing, and heartbeats remain.
+Suzuna climbs into his lap. Not with lust, not with haste — but with a reverence. Like he’s the
+whole world cradled in her arms. Like if she lets go, the stars might fall. She doesn’t speak. Her
+silence says everything.
+She holds Arin close — tighter than fear, gentler than sorrow — like he’s something rare,
+precious… something she’s been searching for every empty night.
+Her hands tremble as they traces the line of his jaw....his lips and suddenly she can't hold it and
+kisses him...it was not a rough kiss it was a passionate one..not sudden not rushed but slow
+aching and endless .Their lips met like ..it was meant to be ...they not only exchange a kiss but an
+emotion..a feeling that was untold by the words
+Arin’s hands rise, tangling in her hair, gripping softly — grounding himself in her touch. His
+mind is a storm, but her breath becomes his calm.
+Clothes are forgotten. Draped over the edge of the bed like fallen leaves in autumn.
+She’s above him now. Eyes locked. Breath synced. A long kiss begins again — deeper this time,
+as if they could speak through their mouths, tell stories through skin.
+In that room, time didn’t tick. It throbbed. With heat, with longing, with years of what-ifs
+crashing into a single moment.
+Suzuna lays him back slowly. Her touch is fire and healing all at once. She lowers herself to him
+— not for hunger, but for connection. The room dissolves into velvet shadows. Only their hearts
+remain.
+Blankets twist around them like vines, the stormlight dancing on bare shoulders, fingers slipping
+along the edge of trembling skin. There’s no noise, no battle — just two souls unraveling in the
+quiet.
+Can you hold me here like this until tomorrow morning “Arin told and sleep”
+Suzuna smiles and sleeps in his hand.
+Two weeks later — the same cozy café where it all began. Rain still painted the glass, but this
+time, their world felt fuller.
+Arin sat across Suzuna, fingers laced with hers.
+She was glowing — peaceful, laughing at something silly he said.
+Then...
+His phone rang.
+He hesitated. Then answered.
+His eyes narrowed. His smile faded.
+Arin (tense):
+"Hello?"
+On the other end — a familiar, gruff voice. His father.
+Arin’s Father (urgent):
+“Vantacore’s seal… it's been breached. They’ve got their hands on it. We need to act fast, Arin.”
+Arin:
+“How? How did they open it?”
+Arin’s Father:
+“We don’t know. But if they harness its core... the entire continent could fall. The world—no,
+time itself—could collapse. You, Sabitri, Aakash, Lucas... You must leave for Tibet. The battle
+starts tonight.”
+A pause.
+Then, Arin stood. Serious. Changed.
+He placed money on the table, and looked at Suzuna — the storm returning to his eyes.
+At his father’s war room — maps glowing, men prepping, plans in motion.
+Arin’s father turned from the screen, raised an eyebrow.
+Arin:
+“Papa… this is Suzuna. My love. Please… keep her safe until I return.”
+His father, half-soldier, half-father, smirked.
+Arin’s Father (teasing):
+“So… My boy finally fell. What’s next, you’ll write poetry?”
+Arin (smiling):
+“Only for her.”
+Suzuna stepped forward. She hugged Arin tightly.
+Suzuna (softly):
+“Come back. Not just for me. For us.”
+Time: Next Day | 2:00 PM | Location: Cozy Café, Corner Table, Rain Tapping on Glass
+Arin sat at the table early. He couldn't stop looking at the door.
+His hands were calm, but his chest?
+It was chaos.
+She walked in.
+Suzuna.
+The bell above the door chimed like a melody written just for this moment.
+She wore a cream-colored dress — simple, yet she lit up the café like it was painted around her.
+The world slowed. Even the music in the café lowered its voice.
+Suzuna (smiling):
+"You came early."
+Arin (standing up nervously):
+"Time runs slow when you’re waiting for something beautiful."
+Suzuna (blushing):
+"You always talk like that?"
+Arin (laughing softly):
+"Only when I’m sitting in front of someone who makes the rest of the world disappear."
+She sat. Their knees brushed beneath the table — a small spark, but it set his soul on fire.
+Suzuna (looking into his eyes):
+"You saved lives yesterday. But I think… you just saved mine too."
+Arin (voice low, sincere):
+"Fighting is easy. It’s this—sitting across you, trying not to fall deeper—that’s the real battle."
+Suzuna (softly, leaning closer):
+"Then stop fighting. Just fall… with me."
+Their hands met on the table. Warm. Nervous. Real.
+✦ Later That Evening — Long Walk Under the Rain ✦
+Suzuna and Arin walked under one umbrella.
+Not speaking much. Just listening to the rain and each other's breathing.
+Suzuna (whispering):
+"Tell me something no one knows about you."
+Arin (after a pause):
+"...I pretend to be strong. But every night, I wish someone would hold me and say, ‘It’s
+okay to stop fighting now.’”
+Suzuna stopped. Held his hand tighter.
+"Then let me be that someone."
+Rain is falling harder now. Thunder low in the distance. The taxi pulls up outside a modest
+apartment complex, dimly lit and wrapped in ivy. Suzuna takes Arin’s hand and leads him inside.
+INT. SUZUNA’S APARTMENT – EVENING
+They step inside. The place smells like lavender and old books. The walls are painted with soft,
+melancholic colors. Rain patters gently against the window.
+Arin (looking around, surprised):
+“Woah… this is your place? It’s… beautiful.”
+Suzuna (smiling softly, kicking off her shoes):
+“Thanks. It's my sanctuary.”
+Arin (gazing out the window):
+“Mind if I sit here for a while? Something about rain and quiet rooms… they slow time.”
+Suzuna (walking toward the bedroom):
+“Of course. Make yourself comfortable.”
+(A pause. The sound of drawers opening.)
+Arin (voice soft):
+“Do you… live alone?”
+Suzuna (voice distant):
+“Yeah. Lost my parents when I was nineteen. Since then… it’s just been me.”
+Arin (turning toward her):
+“I’m sorry for your loss. That’s… that’s heavy.”
+(He pauses, words lost.)
+Arin (whispering to himself):
+“Damn, the line’s gone.”
+Suzuna (from behind the door):
+“It’s okay. Sometimes silence says more.”
+(Then: a beat. The lights go off. A single bedside lamp flickers, then dims.)
+Suzuna (softly):
+“Mind if I change? The lights are off.”
+Arin (caught off guard):
+“Uh—yeah. Sure. I’ll just… close my eyes.”
+(He sits, eyes closed. But he hears the subtle sounds of clothing falling to the floor. The room
+now smells of her perfume—soft jasmine and stormwater. Then, suddenly… warm skin presses to
+him. Hands gentle. She guides his head to her bare chest.)
+Arin (eyes fluttering open, startled):
+“Suzuna… what are you—”
+Suzuna (voice trembling, but determined):
+“I can’t lose you… My love.”
+Arin (heart pounding):
+“Your… love?”
+(She doesn’t answer. She just holds him tighter. His head on her skin, her heartbeat loud like
+thunder. It calms him. Silences him. He closes his eyes. Then—flash—lightning outside. The
+power flickers on. Arin, reacting on instinct, pulls his gun and fires at the bulb—CRACK!—the
+room falls into darkness again.)
+Only rain, breathing, and heartbeats remain.
+Suzuna climbs into his lap. Not with lust, not with haste — but with a reverence. Like he’s the
+whole world cradled in her arms. Like if she lets go, the stars might fall. She doesn’t speak. Her
+silence says everything.
+She holds Arin close — tighter than fear, gentler than sorrow — like he’s something rare,
+precious… something she’s been searching for every empty night.
+Her hands tremble as they traces the line of his jaw....his lips and suddenly she can't hold it and
+kisses him...it was not a rough kiss it was a passionate one..not sudden not rushed but slow
+aching and endless .Their lips met like ..it was meant to be ...they not only exchange a kiss but an
+emotion..a feeling that was untold by the words
+Arin’s hands rise, tangling in her hair, gripping softly — grounding himself in her touch. His
+mind is a storm, but her breath becomes his calm.
+Clothes are forgotten. Draped over the edge of the bed like fallen leaves in autumn.
+She’s above him now. Eyes locked. Breath synced. A long kiss begins again — deeper this time,
+as if they could speak through their mouths, tell stories through skin.
+In that room, time didn’t tick. It throbbed. With heat, with longing, with years of what-ifs
+crashing into a single moment.
+Suzuna lays him back slowly. Her touch is fire and healing all at once. She lowers herself to him
+— not for hunger, but for connection. The room dissolves into velvet shadows. Only their hearts
+remain.
+Blankets twist around them like vines, the stormlight dancing on bare shoulders, fingers slipping
+along the edge of trembling skin. There’s no noise, no battle — just two souls unraveling in the
+quiet.
+Can you hold me here like this until tomorrow morning “Arin told and sleep”
+Suzuna smiles and sleeps in his hand.
+Two weeks later — the same cozy café where it all began. Rain still painted the glass, but this
+time, their world felt fuller.
+Arin sat across Suzuna, fingers laced with hers.
+She was glowing — peaceful, laughing at something silly he said.
+Then...
+His phone rang.
+He hesitated. Then answered.
+His eyes narrowed. His smile faded.
+Arin (tense):
+"Hello?"
+On the other end — a familiar, gruff voice. His father.
+Arin’s Father (urgent):
+“Vantacore’s seal… it's been breached. They’ve got their hands on it. We need to act fast, Arin.”
+Arin:
+“How? How did they open it?”
+Arin’s Father:
+“We don’t know. But if they harness its core... the entire continent could fall. The world—no,
+time itself—could collapse. You, Sabitri, Aakash, Lucas... You must leave for Tibet. The battle
+starts tonight.”
+A pause.
+Then, Arin stood. Serious. Changed.
+He placed money on the table, and looked at Suzuna — the storm returning to his eyes.
+At his father’s war room — maps glowing, men prepping, plans in motion.
+Arin’s father turned from the screen, raised an eyebrow.
+Arin:
+“Papa… this is Suzuna. My love. Please… keep her safe until I return.”
+His father, half-soldier, half-father, smirked.
+Arin’s Father (teasing):
+“So… My boy finally fell. What’s next, you’ll write poetry?”
+Arin (smiling):
+“Only for her.”
+Suzuna stepped forward. She hugged Arin tightly.
+Suzuna (softly):
+“Come back. Not just for me. For us.”
+</p>
+      </section>
+    </section>
+
+
+    <section id="chapterIX" class="chapter">
+      <h2>Chapter IX: The War In Tibet</h2>
+      <section class="subsection">
+       
+        <p>The winds howled across the desolate expanse. Snow, thick as ash, swirled through the fractured
+sky. The ruins of Shavrang Valley lay before them—half of Tibet’s sacred land, erased. Nothing
+but a crater, where a once-proud history was buried.
+Arin and Sabitri stood alone.
+The weight of the world seemed to settle on their shoulders, like a thousand tombstones.
+They had returned, not to flee, but to end it.
+Vantacore. The very name that had destroyed so many lives. A weapon beyond comprehension,
+an ancient god of power, born of death and destruction. Arin and Sabitri were all that remained
+of the army that once stood against it. The few that survived the war's fury, but this time, they
+wouldn’t just survive.
+They would finish it.
+The Final Confrontation – The Second Core
+Inside a buried temple, far beneath the earth, Arin and Sabitri descended into the heart of the
+storm. The second core was the true key to the world’s salvation or its final destruction. It lay
+hidden, encased in ancient rock, its pulse beating in time with the very land itself.
+The temple walls trembled as they approached, the core humming softly beneath their feet. It had
+awakened—its power had called to them, just as it had called to the enemy.
+Arin (eyes dark with resolve):
+“This is it, Sabitri. We destroy it, or the world dies with it.”
+Sabitri looked at him, her gaze steady, unwavering. She had seen the cost of this war. The lives,
+the destruction, the loss. Lucas. Aakash. She would carry that weight, but today… today, they
+will end it. Together.
+Sabitri (quietly):
+“We destroy it. But we do it right. No more half-measures.”
+The core pulsed again, louder, the power threatening to consume them both. They stepped
+forward, each with a piece of the world’s hope in their hearts.
+A thunderous crash echoed through the temple as the Vantacore Force arrived.
+The armored figure—the Overseer—a shadow draped in chaos and dark technology, appeared
+in a burst of black lightning. His eyes burned with the promise of oblivion, his voice cold and
+cruel.
+Overseer (smirking):
+“You think you can stop this? This is evolution. The next step for humanity. The ultimate power.
+You are nothing but insects.”
+Arin (fury building):
+“Your evolution ends here. Today, humanity chooses its own fate. Not you.”
+A roar of power erupted from within the core, and the ground split open, spewing energy so pure
+it bent reality. Arin and Sabitri stood their ground, their weapons raised, their minds locked on
+the target.
+The battle was nothing like they had ever fought before. The energy from the core surged, a
+tsunami of force that split the air. Sabitri’s blades clashed with the Overseer’s weapons, sparks
+flying as steel met steel. Arin’s fists moved like lightning, every strike fueled by the memory of
+his fallen comrades.
+They fought with everything they had. They fought not for survival, but for the world itself.
+But the Overseer was a force of nature, his power amplified by the core’s dark energy. He swung
+his sword, and it seemed like the very air would tear apart.
+Sabitri (screaming):
+“Arin! The core—destroy it!”
+Arin (eyes burning with purpose):
+“Not yet. We need to contain it first. We can’t let it escape again!”
+They had learned the truth. The core wasn’t just a weapon. It was a prison, a containment
+system designed by ancient guardians. Only those who understood its power could wield it.
+Arin and Sabitri had to use the Vantacore’s power against itself.
+The Overseer lunged. But as his blade descended toward Arin, a burst of light flared in Sabitri’s
+chest—she had activated the ancient seal, the key to locking the core’s power.
+The battle seemed to stop in that moment, as time itself held its breath.
+Sabitri (with strength beyond measure):
+“We finish this... together.”
+Arin dove forward, slamming his fist into the heart of the core, channeling every ounce of
+energy, every ounce of grief into it. Vantacore’s pulse faltered, its power twisting in the air like
+a dying star.
+The Overseer screamed in rage. He hurled himself toward them, but it was too late. The core
+exploded—a burst of pure light, of pure destruction.
+But where there had once been death, there was now life.
+Silence.
+The core collapsed in on itself, sealed once again, its dark power drained.
+The Overseer was nothing but ash in the wind, his ambitions crushed under the weight of Arin
+and Sabitri will.
+Victory: The Aftermath
+The sun rose over the destroyed temple. The battlefield was quiet now, save for the distant
+winds. The final battle was over.
+Arin and Sabitri stood together, bloodied, bruised, but victorious. The war was finally won,
+the world saved—for now.
+Sabitri turned to Arin, her eyes filled with both exhaustion and relief. She had lost so much.
+They both had. But today, they won. Together.
+Sabitri (softly, almost a whisper):
+“It’s over, Arin. We did it.”
+Arin (with a haunted, yet determined smile):
+“No, Sabitri. It’s just the beginning. But we’ll face it together.”
+They looked out over the horizon—at the world they had saved. There was no applause, no
+cheering crowd. Only the quiet, resolute feeling that, though they had won this battle, the war
+was never truly over.
+But for today, they had fought to end it.
+And they had.
+Epilogue – The Return Home
+The world would heal. Slowly. There were scars that could never be erased, but the future was
+theirs to shape.
+Arin and Sabitri returned to the place where it all began. Their journey, their fight, their
+sacrifices… now, they would build something new.
+A legacy. For the fallen. For the living.
+For humanity.
+The war had ended. But their story had just begun.
+Arin’s Father stood alone in the dimly lit war room, his face pale and drawn. The
+once-formidable man now looked smaller, broken—his hands trembling as he stared at a
+flickering screen that had once been the heart of their operations.
+Arin (voice trembling, the weight of all he'd lost crashing down on him):
+“Father, what happened? Why… why are you alone?”
+But the answer came not from his father’s lips, but from the cold, chilling silence that surrounded
+the room.
+Arin’s Father (voice cracked, hoarse):
+“They… they came for Vantacore. They came for revenge.”
+He turned slowly, revealing the truth Arin had feared but never imagined. His father’s eyes were
+hollow, empty with the grief of a thousand deaths.
+Sabitri (eyes wide, voice tight with fear):
+“No… Suzuna…?”
+His father nodded slowly, the truth settling between them like the weight of a thousand lifetimes.
+Arin’s Father (whispering):
+“Your wife… Suzuna… she’s gone. They came for her, Arin. They came for your family.”
+Arin’s heart pounded in his chest as he forced himself to step closer, his hands shaking. Suzuna,
+the woman who had fought beside him, believed in him when no one else did, the mother of their
+child… gone.
+She had stood strong, never faltering. But the gang—the merciless group loyal to
+Vantacore—had come for vengeance. They had found her. Suzuna had been caught alone in the
+chaos, just as she had prepared to welcome Arin home.
+The leader of the gang, a vicious man known only as Zahir, had led the assault. Their orders
+were simple: end the line of Arin. The family was a symbol. And in the darkness of the night,
+they had snatched away the future Arin had dreamed of.
+They broke through her defenses, ambushed her in the house, and as Suzuna fought back with
+everything she had, her last moments were spent protecting what remained of her family.
+But in the end, the gunshots rang through the night. She died fighting—just as she had lived.
+As Arin and Sabitri stood in the war room, frozen in shock, another scream ripped through the
+silence.
+Arin’s Father (voice breaking):
+“It wasn’t just Suzuna. They… they took him, too. Your son. The second twin.”
+The loss was too much to bear.
+Arin (whispering, the pain too great to speak aloud):
+“No… no, not my son. Not both of them…”
+His father stepped forward, placing a shaking hand on Arin’s shoulder, offering a broken
+comfort. The second twin—the son who had never even had a chance to live, now stolen by the
+same darkness that had already claimed so much. The family’s legacy, shattered.
+Arin (falling to his knees):
+“They took everything. Everything we fought for...”
+Sabitri’s heart shattered as she watched the destruction unfold around them. She could feel the
+weight of Arin’s grief, a man who had already lost so much, now standing at the precipice of
+losing it all.
+But in the wake of this devastation, Arin’s fury ignited. The fire within him, already a raging
+inferno from the loss of his comrades, now became a force of destruction.
+Arin stood, his face a mask of fury, pain, and unwavering resolve.
+Arin (eyes dark, voice low and deadly):
+“They think they’ve broken me. They think they’ve taken everything. But they’ve made a
+mistake.”
+Sabitri, ever at his side, locked eyes with him. She understood. No more running. No more
+mercy.
+Sabitri:
+“They will pay, Arin. Every last one of them.”
+And so, they set out. This wasn’t just about Vantacore anymore. This wasn’t just about survival.
+This was vengeance.
+They hunted the gang down—every last one of them. Zahir and his mercenaries, the ones who
+had dared to cross the line. They found them hiding in the shadows, thinking themselves safe.
+But the shadow that Arin carried with him was a shadow of death.
+Arin and Sabitri were unstoppable. They left nothing but a trail of ashes in their wake.
+When they reached Zahir, the man who had taken everything from him, Arin stood over him, his
+voice cold and devoid of mercy.
+Arin (growling, eyes blazing):
+“You took my family. Now you pay with yours.”
+The final battle was over. But Arin, Sabitri—they had lost everything. And they had nothing
+left to lose.
+The world had been changed forever. The war was over. But the personal war that had begun
+when Suzuna was taken, that fire would burn in Arin's heart forever.
+And this time, there would be no mercy.
+As the sun set over the war-torn land, Arin and Sabitri stood together, watching as the world
+slowly began to rebuild. They had won, yes, but the price had been too high.
+The war was over. But what was left?
+Arin (whispering, almost to himself):
+“We lost more than we’ll ever be able to give back… but I’ll keep fighting, Sabitri. For them.
+For our family. For the world.”
+Sabitri stood beside him, her face a mask of quiet strength. She, too, had lost everything. But
+together, they were a force of nature—unbroken, unyielding.
+Sabitri (with a quiet resolve):
+“And we’ll make sure that the world never forgets. Not just the war we fought, but the family
+we lost. We’ll fight until our last breath.”
+And as the night fell, the stars above seemed to whisper their silent promise.
+The war had ended, but for Arin and Sabitri, the battle of the heart had only just begun.
+It was a silent evening, long after the bloodshed had dried and the cries of war had been buried
+beneath the soil. Arin sat alone by the grave of Suzuna and the son he had lost, his eyes hollow,
+heart heavy.
+But beside him stood Sabitri, not just his comrade-in-arms, not just a warrior who fought beside
+him in shadow and flame—but the last soul who truly understood him.
+She stood quietly, her hand resting gently on her stomach, eyes soft.
+Sabitri (gently, voice trembling):
+“Arin… I know what you’ve lost. I know what it cost you. But I also know... what still
+remains.”
+He turned to her, eyes weary, but listening.
+Sabitri (eyes glistening):
+“I never meant to cross this line. I never thought I’d say it. But now… after everything… I don’t
+want to fight alone anymore. I want to raise my children in a world you helped save. And I want
+them… to know a father’s love.”
+She paused, heart pounding.
+Sabitri (whispers):
+“I want to marry you, Arin. Not out of pity. Not out of duty. But because I believe in you. I want
+our children to grow up in a home where love still survives. Where it lives again.”
+Arin said nothing at first. The silence hung heavy—but in that stillness, he wasn’t mourning
+anymore. He was healing.
+Arin (softly):
+“I lost everything, Sabitri. But maybe… just maybe… we can build something again. Something
+worth fighting for. Something worth living for.”
+And so, under the whisper of the stars, where once war drums echoed, love found a new
+rhythm.
+Arin’s surviving child, his second baby born from Suzuna but saved by fate, would now grow
+under Sabitri’s care.
+The children, though not bound by blood, would grow as siblings, sharing not only toys and
+dreams, but a love that came not from bloodlines—but from choice, from pain, from healing.
+A Family Forged in Flame
+Together, Arin and Sabitri built a home. Not a palace, not a fortress—but a home.
+A place where laughter returned.
+Where Sophia chased butterflies, and Yosef built wooden swords, and the youngest, Arin’s
+baby, learned to walk with both Sabitri and Arin by his side.
+They were not a perfect family. There were tears. Nights when memories haunted them. But
+there was love. A love that was not loud—but constant.
+And in the end, that was what mattered.
+A Final Whisper from Arin
+One night, Arin sat outside, his child asleep in his arms. Sabitri stepped beside him, Sophia and
+Yosef already tucked in.
+Arin (whispering, watching the stars):
+“I thought war took everything from me. But maybe… it just cleared the path for something
+new.”
+Sabitri (smiling):
+“Something stronger. Something that lasts.”</p>
+      </section>
+    </section>
+
+     <section id="chapterX" class="chapter">
+      <h2>Chapter X: Mystery Of Shadows</h2>
+      <section class="subsection">
+       
+        <p><strong>[Scene: Inside the Monastery – Cracked Walls, Flickering Flames]
+Samuel (smirking nervously):</strong>
+“Mr. Monk… My dad was naughty back in the day, huh? You seem to know him well.”
+Monk (turns slowly, voice like an old whisper):
+“I should. I am Aakash’s brother… and once, I fought beside Arin as a friend.”
+A sudden wind howls through the broken arches. Candles flicker. Something old stirs.
+✦ Scene Shift: The Dark Cave – Somewhere Unknown
+The cave is endless — walls slick with ancient blood, lit only by a dying crimson flame.
+A figure stands with back turned, clad in a long red coat, tall and still as death itself.
+Nothing about them is clear — they are the outline of dread, a rumor of wrath.
+Servant 1 (bowing, breath shaky):
+“My Lord… they made it inside the monastery. Monk… Samuel… and the girl. They’ve
+killed all our guards. The monk… he’s telling them about Arin’s past.”
+A long silence. The red-cloaked figure doesn’t move. The flames flicker more violently.
+Mystery Shadow (chuckling darkly):
+“Hehehe… Well, well, well… Did he tell them everything? Did he tell them what Arin
+became? What he did? ”
+The voice is not human. It’s layered — a chorus of pain and secrets.
+✦ Scene: Monastery – Sacred Ground, Now Bloodstained
+Jack (reading old war logs):
+“Wait… This means… Samuel… you’re not Sabitri’s biological son.”
+Samuel (shocked):
+“What are you talking about? Are you drunk?!”
+Monk (stepping back, eyes wide):
+“Wait… what did you just say… right now?”
+Sophia (softly, almost afraid):
+“Sabitri… She's my mother. She sent Samuel and me… to stop the Vantacore. To protect
+it…”
+The walls groan. A bell chimes by itself. Something ancient has heard the truth.
+✦ Scene: The Cave – Hell Begins to Boil
+Servant 2 (rushing in):
+“My Lord… our mission—our control—it’s slipping! The children… they’re unraveling
+everything!”
+The mystery figure slowly turns. Smoke pours from the shadows. A gloved hand raises
+a sleek black gun — the kind that ends loyalty in an instant.
+BANG!
+The servant crumples, head split open like a cracked egg.
+Mystery Shadow (low growl):
+“Call Yosef. Send the army. I want that monastery turned to ashes.”
+And as she steps forward — the light reveals her face.
+SABITRI. Alive.
+Her eyes are black suns. Her smile… is war.
+✦ Scene: Monastery – Chaos Erupts
+Monk (stumbling backward):
+“No… it can’t be. Sabitri is alive?!”
+Jack (voice cracking):
+“But she died… she… died…”
+Samuel (rage rising):
+“She raised me… she was good. What happened to her?!”
+Monk (voice trembling):
+“She didn’t die, child. She became something else. Sabitri… became the thing she
+feared.”
+✦ Scene: The Cave – The Goddess of Vantacore
+Sabitri (laughing wildly):
+“They all worshipped Arin… his battles, his sacrifices. They never saw me. I bled. I
+burned. I raised the children of a dead woman. I buried my dreams for a world that spat
+in my face.”
+She steps to the ancient Vantacore altar, now pulsing like a beating heart.
+Sabitri (screaming):
+“VANTACORE! I WANT IT! I will destroy EVERYONE for its power!”
+She turns, eyes glowing red.
+Sabitri:
+“Yosefffffffffffffffff!”
+The name rips out like a war cry, like thunder tearing through bone.
+The screen fades to black, leaving only one word in ancient Tibetan carved on stone:
+<strong>"Aenigma" — The Unknown Begins.</strong></p>
+      </section>
+    </section>
+
+     <section id="To BE COntinued" class="chapter">
+      
+        <p><strong>TO BE CONTINUED</strong></p>
+      </section>
+    </section>
+
+    <section id="Author Name">
+      <h2><strong>Author Name</strong></h2>
+      <section class="subsection">
+     
+        <p><strong>Sachin Pathak</strong></p>
+      </section>
+    </section>
+
+<title>Vantacore Character Bios</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #f0f0f0;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      color: #ffd700;
+      margin-bottom: 50px;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .filter-buttons {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .filter-buttons button {
+      background: #222;
+      border: 1px solid #ffd700;
+      color: #ffd700;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .filter-buttons button:hover {
+      background: #ffd700;
+      color: #000;
+    }
+
+    .character-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+      padding: 20px;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+    }
+
+    .card h2 {
+      color: #ffd700;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      margin: 5px 0;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .card[data-role]:not([data-role="All"]) {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>VANTACORE Character Bios</h1>
+
+  <div class="filter-buttons">
+    <button onclick="filterBios('All')">All</button>
+    <button onclick="filterBios('Main')">Main</button>
+    <button onclick="filterBios('Allies')">Allies</button>
+    <button onclick="filterBios('Enemies')">Enemies</button>
+  </div>
+
+  <div class="character-grid">
+    <div class="card" data-role="Main">
+      <h2>Samuel Sharma</h2>
+      <p><strong>Role:</strong> Protagonist</p>
+      <p><strong>Personality:</strong> Emotional, impulsive, loyal</p>
+      <p><strong>Bio:</strong> Young and broken by tragedy, Samuel is chosen by destiny to inherit Vantacore’s power and vengeance. His rage is his weapon—and his curse.</p>
+    </div>
+
+    <div class="card" data-role="Main">
+      <h2>Sophia Sharma</h2>
+      <p><strong>Role:</strong> Samuel’s sister</p>
+      <p><strong>Personality:</strong> Bold, strategic, emotionally strong</p>
+      <p><strong>Bio:</strong> The soul of the Sharma family, Sophia fights not just for revenge but for truth. A marksman and fierce sister, her loyalty never wavers.</p>
+    </div>
+
+    <div class="card" data-role="Allies">
+      <h2>Dev Sharma / Arin</h2>
+      <p><strong>Role:</strong> Father / Guardian of Vantacore</p>
+      <p><strong>Bio:</strong> Once a secret protector, Arin masked his past under a civilian life. But war and prophecy never die quietly.</p>
+    </div>
+
+    <div class="card" data-role="Allies">
+      <h2>Jack</h2>
+      <p><strong>Role:</strong> The Outsider</p>
+      <p><strong>Bio:</strong> A boy rescued from the river, his past entwines with Dev’s and Emma’s. What he’s hiding might shape—or shatter—the future.</p>
+    </div>
+
+    <div class="card" data-role="Main">
+      <h2>Sabitri</h2>
+      <p><strong>Role:</strong> Mother / Force of Vengeance</p>
+      <p><strong>Bio:</strong> A woman weathered by loss and rage. Her silence is louder than war drums. A storm waiting to break.</p>
+    </div>
+
+    <div class="card" data-role="Allies">
+      <h2>Suzuna</h2>
+      <p><strong>Role:</strong> Arin’s Love</p>
+      <p><strong>Bio:</strong> The anchor to Arin’s heart. Her soft strength is the beginning of a new legacy… and possibly the mother of a new Guardian.</p>
+    </div>
+
+    <div class="card" data-role="Allies">
+      <h2>Yosef Sharma</h2>
+      <p><strong>Role:</strong> Lost Brother</p>
+      <p><strong>Bio:</strong> Disappeared during the ambush. Whether dead or alive, his absence haunts Samuel like a ghost in every fight.</p>
+    </div>
+
+    <div class="card" data-role="Allies">
+      <h2>Emma</h2>
+      <p><strong>Role:</strong> Jack’s lost love</p>
+      <p><strong>Bio:</strong> Disfigured but beautiful in soul. Her mysterious death sparks Jack’s desire for vengeance and justice.</p>
+    </div>
+
+    <div class="card" data-role="Allies">
+      <h2>Lucas</h2>
+      <p><strong>Role:</strong> Arin’s ally</p>
+      <p><strong>Bio:</strong> Loyal to the end. One of the first casualties of Vantacore’s awakening.</p>
+    </div>
+
+    <div class="card" data-role="Enemies">
+      <h2>Overseer</h2>
+      <p><strong>Role:</strong> Main Antagonist (Part 2)</p>
+      <p><strong>Bio:</strong> A mysterious figure broadcasting global chaos. May control or be possessed by the Vantacore itself.</p>
+    </div>
+  </div>
+
+  <script>
+    function filterBios(role) {
+      document.querySelectorAll('.card').forEach(card => {
+        if (role === 'All') {
+          card.style.display = 'block';
+        } else {
+          card.style.display = card.getAttribute('data-role') === role ? 'block' : 'none';
+        }
+      });
+    }
+  </script>
+    
+<title>Animated Circular Image</title>
+<style>
+  .circle-image {
+    width: 300px;              /* Small size circle */
+    height: 300px;
+    border-radius: 100%;        /* Make it perfectly round */
+    overflow: hidden;          /* Hide overflow so no edges show */
+    border: 3px solid #555;    /* A classic subtle border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);  /* Depth and softness */
+    animation: spin 10s linear infinite;    /* Slow infinite rotation */
+    display: block;
+    margin: 20px auto;         /* Center horizontally with some space */
+  }
+
+  .circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* Fill circle nicely */
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="circle-image">
+  <img src="Author.png" alt="Your description here" />
+</div>
+
+<footer style="text-align: center; padding: 20px; margin-top: 50px; background: #f8f8f8; border-top: 1px solid #ccc;">
+  <p style="margin: 8px 0; font-size: 16px;">
+    📞 <strong>Phone:</strong> <a href="tel:+9779806923879" style="text-decoration: none; color: #333;">+977-9806923879 or +977-9817565225</a>
+  </p>
+
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+style="position: fixed; bottom: 20px; right: 20px; padding: 10px 14px; border-radius: 50%; border: none; background: #333; color: white; font-size: 18px; cursor: pointer;">
+↑
+</button>
+
+
+  </main>
+
+  <script>
+    // Scroll progress bar
+    const progress = document.getElementById('progress');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const scrolled = (scrollTop / docHeight) * 100;
+      progress.style.width = scrolled + '%';
+    });
+
+    // Active link highlight
+    const chapters = document.querySelectorAll('main section.chapter');
+    const navLinks = document.querySelectorAll('nav a');
+
+    function onScroll() {
+      let current = '';
+      chapters.forEach(chapter => {
+        const top = chapter.offsetTop - 150;
+        if (window.scrollY >= top) {
+          current = chapter.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    
+
+    window.addEventListener('scroll', onScroll);
+  </script>
+</body>
+</html>
